@@ -1,13 +1,18 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css?family=Red+Hat+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nothing+You+Could+Do&display=swap');
+
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --green: #20968b;
+  --purple: #77448b;
+  --dark-purple: #530082;
+  --alpha-purple: #77448b70;
+  --dark-blue: #141422;
+  --dark-gray: #262633;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+::selection {
+  background: var(--purple);
 }

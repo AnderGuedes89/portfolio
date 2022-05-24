@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.home {
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(to top left, #262633 35%, #141422 35%);
+}
+
+.home__hello {
+  color: var(--white);
+  font-family: 'Red Hat Display', sans-serif;
+  letter-spacing: 1px;
+  font-size: 2rem;
+  padding-top: 10vh;
+}
+
+.home__name {
+  color: var(--green);
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0.5px;
+  font-size: 4rem;
+}
+
+.home__text {
+  color: var(--white);
+  letter-spacing: 0.5px;
+  font-size: 1.2rem;
+  margin-bottom: 0.1rem;
+}
+
+.home__link {
+  color: var(--green) !important;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  padding-top: 0;
+  padding: 0.5rem;
+}
+
+.home__link:hover {
+  color: var(--white) !important;
+}
+
+.home__row--image {
+  padding-top: 8rem;
+}
+
+.home__image {
+  color: var(--white);
+  font-size: 5.5rem;
+  padding-right: 11.5rem;
+}
+
+.home__icon {
+  color: var(--white);
+  font-size: 1.3rem;
+  padding-top: 8px;
+  padding-right: 1.2rem;
+}
+
+.home__icon:hover {
+  color: var(--green);
+}
+
+.home__footer {
+  padding-top: 4rem;
+}
