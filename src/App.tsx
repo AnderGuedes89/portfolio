@@ -1,15 +1,13 @@
 import './App.css';
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
-import Home from './pages/Home';
-import Portfolio from './pages/Portfolio';
-import PageNotFound from './pages/PageNotFound';
+import Home from './pages/Home/Home';
+import PageNotFound from './pages/PageNotFound/PageNotFound';
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="portfolio" element={<Portfolio />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
     </BrowserRouter>
