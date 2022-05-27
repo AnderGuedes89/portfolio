@@ -8,10 +8,10 @@ Portfólio com trabalhos realizados na graduação de Sistemas para Internet na 
 
 - [ReactJS](https://reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
 - [Bootstrap](https://getbootstrap.com/)
-- [PhosphorIcons](https://phosphoricons.com/)
+- [React Icons](https://react-icons.github.io/react-icons)
 - [Create React App](https://github.com/facebook/create-react-app)
+- [unDraw](https://undraw.co/)
 
 ### Rodando localmente
 
