@@ -1,0 +1,100 @@
+.skills {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 3.7rem;
+  background-color: var(--color-background);
+}
+
+.skills__header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.skills__header > h1 {
+  margin-bottom: 20px;
+  font-size: 3.5rem;
+  color: var(--color-primary);
+  font-family: var(--font-primary);
+  margin-bottom: 6rem;
+}
+
+.skills__body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 2rem;
+}
+
+.skills__body--container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4.5rem;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 992px) and (max-width: 1380px) {
+  .skills {
+    padding: 2.7rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .skills {
+    padding: 1.7rem;
+  }
+
+  .skills__body > h1 {
+    margin-bottom: 4rem;
+  }
+
+  .skills__body--container {
+    gap: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .skills {
+    padding: 1rem;
+  }
+
+  .skills__header h1 {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .skills__body--container {
+    gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .skills {
+    padding: 0.5rem;
+  }
+
+  .skills__header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+
+  .skills__body--container {
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
+}
+
+@media only screen and (device-width: 768px) {
+}

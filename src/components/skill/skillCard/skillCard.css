@@ -1,0 +1,106 @@
+.skill__card {
+  /* box-shadow: 4px 4px 8px rgba(36, 3, 3, 0.2); */
+  width: 180px;
+  height: 180px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.4rem 1.4rem;
+  transition: transform 300ms ease-in-out;
+  font-family: var(--font-primary);
+  background-color: var(--color-white);
+}
+
+/* .skill__card:hover {
+  transform: scale(1.15);
+} */
+
+.skill__content {
+  position: relative;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.skill__icon {
+  position: absolute;
+  top: 15%;
+}
+
+.skill__icon > svg {
+  font-size: 2.8rem;
+  color: var(--color-primary);
+}
+
+.skill__card:hover svg {
+  animation: magic 0.7s ease-in-out both;
+}
+
+@keyframes magic {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(0, -20px);
+  }
+  50% {
+    transform: translate(0, 0px);
+  }
+  75% {
+    transform: translate(0, -10px);
+  }
+}
+
+.skill__content > h4 {
+  position: absolute;
+  top: 60%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-primary);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  line-height: 110%;
+  color: var(--color-primary);
+}
+
+@media screen and (max-width: 800px) {
+  .skill__card {
+    width: 160px;
+    height: 160px;
+    padding: 1.2rem 1.2rem;
+  }
+
+  .skill__icon > svg {
+    font-size: 2.5rem;
+  }
+
+  .skill__content > h4 {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .skill__card {
+    width: 150px;
+    height: 150px;
+    padding: 1.2rem 1.2rem;
+  }
+
+  .skill__icon > svg {
+    font-size: 2.2rem;
+  }
+
+  .skill__content > h4 {
+    font-size: 13px;
+    top: 50%;
+  }
+}
