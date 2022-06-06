@@ -11,6 +11,23 @@
   --font-primary: 'Poppins', sans-serif;
 }
 
+/* ScrollBar */
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  background-color: var(--color-white);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: var(--color-white);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-black);
+}
+
 * {
   margin: 0;
   box-sizing: border-box;

@@ -1,8 +1,9 @@
-import React from 'react';
-import ProjectCard from './projectCard/ProjectCard';
-import './project.css';
-import { Link } from 'react-router-dom';
+import { Grid } from '@mui/material';
+import React, { useState } from 'react';
 import { HiArrowRight } from 'react-icons/hi';
+import { Link } from 'react-router-dom';
+import ProjectCard from '../../components/project/projectCard/ProjectCard';
+import './projectPage.css';
 
 export const projectsData = [
   {
@@ -53,19 +54,53 @@ export const projectsData = [
     demo: '',
     image: '',
   },
+  {
+    id: 6,
+    projectName: 'FeedGet',
+    projectDesc:
+      'Widget para feedbacks, desenvolvido durante a NLW Return da Rocketseat',
+    tags: ['React', 'TypeScript', 'Tailwind CSS', 'Node.js'],
+    code: 'https://github.com/AnderGuedes89/FeedGet',
+    demo: '',
+    image: '',
+  },
 ];
 
-function Project() {
+function ProjectPage() {
+  const [search, setSearch] = useState('');
+
+  const filteredProject = projectsData.filter((project) => {
+    const content = project.projectName + project.projectDesc + project.tags;
+    return content.toLowerCase().includes(search.toLowerCase());
+  });
+
   return (
     <>
-      {projectsData.length > 0 && (
-        <div className="projects">
-          <div className="projects__header">
-            <h1>Projetos</h1>
+      <div className="project__page">
+        <div className="project__page--header">
+          <Link to="/">
+            <HiArrowRight />
+          </Link>
+          <h1>Projetos</h1>
+        </div>
+        <div className="project__page--container">
+          <div className="project__page--search">
+            <input
+              type="text"
+              value={search}
+              onChange={(e) => setSearch(e.target.value)}
+              placeholder="Procurar..."
+            />
           </div>
-          <div className="projects__body">
-            <div className="projects__body--container">
-              {projectsData.slice(0, 3).map((project) => (
+          <div className="project__container">
+            <Grid
+              className="project__grid"
+              container
+              direction="row"
+              alignItems="center"
+              justifyContent="center"
+            >
+              {filteredProject.map((project) => (
                 <ProjectCard
                   key={project.id}
                   id={project.id}
@@ -77,22 +112,12 @@ function Project() {
                   image={project.image}
                 />
               ))}
-            </div>
-            {projectsData.length > 3 && (
-              <div className="projects--viewAll">
-                <Link to="/projetos">
-                  <button>
-                    View All
-                    <HiArrowRight />
-                  </button>
-                </Link>
-              </div>
-            )}
+            </Grid>
           </div>
         </div>
-      )}
+      </div>
     </>
   );
 }
 
-export default Project;
+export default ProjectPage;
