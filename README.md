@@ -8,8 +8,9 @@ Portfólio com trabalhos realizados na graduação de Sistemas para Internet na 
 
 - [ReactJS](https://reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
-- [Bootstrap](https://getbootstrap.com/)
+- [Material UI](https://mui.com/pt/)
 - [React Icons](https://react-icons.github.io/react-icons)
+- [React Router Dom](https://v5.reactrouter.com/)
 - [Create React App](https://github.com/facebook/create-react-app)
 - [unDraw](https://undraw.co/)
 
