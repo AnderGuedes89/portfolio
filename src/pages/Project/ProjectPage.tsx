@@ -1,7 +1,8 @@
 import { Grid } from '@mui/material';
 import React, { useState } from 'react';
-import { HiArrowRight } from 'react-icons/hi';
+import { HiOutlineHome } from 'react-icons/hi';
 import { Link } from 'react-router-dom';
+import Footer from '../../components/footer/Footer';
 import ProjectCard from '../../components/project/projectCard/ProjectCard';
 import { projectsData } from '../../data/projectsData';
 import './projectPage.css';
@@ -19,7 +20,7 @@ function ProjectPage() {
       <div className="project__page">
         <div className="project__page--header">
           <Link to="/">
-            <HiArrowRight />
+            <HiOutlineHome className="pp--home" />
           </Link>
           <h1>Projetos</h1>
         </div>
@@ -30,6 +31,7 @@ function ProjectPage() {
               value={search}
               onChange={(e) => setSearch(e.target.value)}
               placeholder="Procurar..."
+              className="pp--search"
             />
           </div>
           <div className="project__container">
@@ -56,6 +58,7 @@ function ProjectPage() {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 }
