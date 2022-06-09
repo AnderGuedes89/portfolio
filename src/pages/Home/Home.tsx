@@ -3,12 +3,14 @@ import About from '../../components/about/About';
 import Education from '../../components/education/Education';
 import Experience from '../../components/experience/Experience';
 import Footer from '../../components/footer/Footer';
+import Header from '../../components/header/Header';
 import Project from '../../components/project/Project';
 import Skill from '../../components/skill/Skill';
 
 function Home() {
   return (
     <>
+      <Header />
       <About />
       <Education />
       <Skill />
