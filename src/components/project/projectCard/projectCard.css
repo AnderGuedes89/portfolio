@@ -11,8 +11,12 @@
   position: relative;
   cursor: pointer;
   overflow: hidden;
-  background-color: var(--color-primary);
-  opacity: 0.5;
+  background-color: var(--color-white);
+  opacity: 0.8;
+}
+
+.project__card:hover {
+  opacity: 1;
 }
 
 .project__card--content {
@@ -26,6 +30,7 @@
 
 .project__card--content > h2 {
   font-family: var(--font-primary);
+  color: var(--color-background);
   font-style: normal;
   font-weight: 600;
   font-size: 1.525rem;

@@ -1,3 +1,9 @@
+import BuffaloBurger from '../assets/images/cards/buffalo-burger.png';
+import GustoBelissimo from '../assets/images/cards/gusto-belissimo.png';
+import MyStock from '../assets/images/cards/myStock.png';
+import TShirtStore from '../assets/images/cards/t-shirt-store.png';
+import YouTube from '../assets/images/cards/youtube-clone.png';
+
 export const projectsData = [
   {
     id: 1,
@@ -6,7 +12,7 @@ export const projectsData = [
     tags: ['React', 'Material UI'],
     code: 'https://github.com/AnderGuedes89/youtube-clone',
     demo: '',
-    image: '',
+    image: YouTube,
   },
   {
     id: 2,
@@ -15,7 +21,7 @@ export const projectsData = [
     tags: ['React', 'Material UI', 'Redux', 'MongoDB'],
     code: 'https://github.com/AnderGuedes89/t-shirt-store',
     demo: '',
-    image: '',
+    image: TShirtStore,
   },
   {
     id: 3,
@@ -25,7 +31,7 @@ export const projectsData = [
     tags: ['HTML', 'CSS', 'JavaScript', 'Bootstrap'],
     code: 'https://github.com/AnderGuedes89/gusto-belissimo',
     demo: '',
-    image: '',
+    image: GustoBelissimo,
   },
   {
     id: 4,
@@ -35,7 +41,7 @@ export const projectsData = [
     tags: ['PHP', 'Laravel', 'Bootstrap'],
     code: 'https://github.com/AnderGuedes89/myStock',
     demo: '',
-    image: '',
+    image: MyStock,
   },
   {
     id: 5,
@@ -45,7 +51,7 @@ export const projectsData = [
     tags: ['HTML', 'CSS', 'Bootstrap'],
     code: 'https://github.com/AnderGuedes89/buffalo-burger',
     demo: '',
-    image: '',
+    image: BuffaloBurger,
   },
   {
     id: 6,
