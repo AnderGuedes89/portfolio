@@ -47,6 +47,7 @@
   font-size: 35px;
   margin: 0 1rem;
   transition: transform 0.5s;
+  color: var(--color-background);
 }
 
 .header--social:hover {
@@ -83,6 +84,7 @@
   font-size: 3.25rem;
   line-height: 110%;
   margin: 1rem 0;
+  color: var(--color-primary);
 }
 
 .hcr--content p {

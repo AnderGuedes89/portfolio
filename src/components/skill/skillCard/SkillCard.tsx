@@ -6,7 +6,7 @@ function SkillCard({ id, title, icon }: any) {
     <>
       <div key={id} className="skill__card">
         <div className="skill__content">
-          <i className="skill__icon">{icon}</i>
+          <img className="skill__icon" src={icon} alt={icon} />
           <h4>{title}</h4>
         </div>
       </div>

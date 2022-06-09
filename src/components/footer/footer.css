@@ -10,6 +10,6 @@
 .footer p {
   font-weight: 500;
   font-family: var(--font-primary);
-  font-size: 18px;
+  font-size: 1rem;
   color: var(--color-white);
 }

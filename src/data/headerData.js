@@ -2,7 +2,7 @@ import Programming from '../../src/assets/images/programming.png';
 
 export const headerData = {
   name: 'Anderson Guedes',
-  title: 'Web Developer',
+  title: 'Desenvolvedor Web',
   desciption:
     'Sou Engenheiro de Software Front-End da cidade de Araras/SP, trabalhando em Home Office para uma empresa de Recife/PE.',
   desciption2:

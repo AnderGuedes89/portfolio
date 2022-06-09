@@ -29,14 +29,10 @@
 .skill__icon {
   position: absolute;
   top: 15%;
+  width: 155%;
 }
 
-.skill__icon > svg {
-  font-size: 2.8rem;
-  color: var(--color-primary);
-}
-
-.skill__card:hover svg {
+.skill__card:hover img {
   animation: magic 0.7s ease-in-out both;
 }
 
@@ -69,7 +65,8 @@
   font-size: 16px;
   text-align: center;
   line-height: 110%;
-  color: var(--color-primary);
+  font-weight: 600;
+  color: var(--color-background);
 }
 
 @media screen and (max-width: 800px) {
@@ -79,8 +76,8 @@
     padding: 1.2rem 1.2rem;
   }
 
-  .skill__icon > svg {
-    font-size: 2.5rem;
+  .skill__icon {
+    width: 115%;
   }
 
   .skill__content > h4 {
@@ -95,8 +92,8 @@
     padding: 1.2rem 1.2rem;
   }
 
-  .skill__icon > svg {
-    font-size: 2.2rem;
+  .skill__icon {
+    width: 125%;
   }
 
   .skill__content > h4 {

@@ -1,17 +1,17 @@
 import React from 'react';
 import './education.css';
-import { FaBeer } from 'react-icons/fa';
+import Education from '../../assets/svg/education.svg';
 
 function EducationCard({ id, institution, course, startYear, endYear }: any) {
   return (
     <>
       <div key={id} className="education__card">
         <div className="education__card-image">
-          <FaBeer  />
+          <img src={Education} alt="" />
         </div>
         <div className="education__card--details">
           <h6>
-            {startYear}-{endYear}
+            {startYear} - {endYear}
           </h6>
           <h4>{course}</h4>
           <h5>{institution}</h5>

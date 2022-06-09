@@ -12,10 +12,6 @@ function Skill() {
             <h1>Habilidades</h1>
           </div>
           <div className="skills__body">
-            <p>
-              These are some of the services I offer. Reach out to me if I can
-              help you with any!
-            </p>
             <div className="skills__body--container">
               {skillsData.map((skill) => (
                 <SkillCard
