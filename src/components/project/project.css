@@ -50,7 +50,7 @@
   transition: 'color 0.2s';
 }
 
-.projects--viewAll a button {
+.projects__viewAll--button {
   outline: none;
   border: none;
   width: 150px;
@@ -60,12 +60,29 @@
   justify-content: space-between;
   text-transform: inherit;
   border-radius: 45px;
-  font-size: 1.05rem;
+  font-size: 1rem;
   font-family: var(--font-primary);
   font-weight: 500;
   padding-left: 1.5rem;
   cursor: pointer;
   background-color: var(--color-primary);
+}
+
+.projects__viewAll--button:hover {
+  color: var(--color-white);
+  font-weight: 400;
+}
+
+.projects__viewAll--icon {
+  color: var(--color-primary);
+  background-color: var(--color-white);
+  width: 35px;
+  height: 35px;
+  padding: 0.5rem;
+  font-size: 1.05rem;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.2s;
 }
 
 @media (min-width: 992px) and (max-width: 1380px) {

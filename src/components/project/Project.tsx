@@ -31,9 +31,9 @@ function Project() {
             {projectsData.length > 3 && (
               <div className="projects--viewAll">
                 <Link to="/projetos">
-                  <button>
-                    View All
-                    <HiArrowRight />
+                  <button className="projects__viewAll--button">
+                    Ver mais
+                    <HiArrowRight className="projects__viewAll--icon" />
                   </button>
                 </Link>
               </div>
