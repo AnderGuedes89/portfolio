@@ -1,5 +1,4 @@
 .project__card {
-  box-shadow: 4px 4px 8px rgba(36, 3, 3, 0.2);
   width: 304px;
   height: 360px;
   border-radius: 10px;
@@ -7,7 +6,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 1.4rem 2rem;
+  padding: 1.4rem 1.5rem;
   position: relative;
   cursor: pointer;
   overflow: hidden;
@@ -16,7 +15,8 @@
 }
 
 .project__card:hover {
-  opacity: 1;
+  transform: scale(1.05);
+  transition: all 0.3s;
 }
 
 .project__card--content {
@@ -33,36 +33,30 @@
   color: var(--color-background);
   font-style: normal;
   font-weight: 600;
-  font-size: 1.525rem;
+  font-size: 1.3rem;
   line-height: 110%;
   text-align: center;
 }
 
 .project__card--content > img {
   width: 100%;
-  height: 60%;
+  height: 50%;
   transition: opacity 0.7s 0.3s;
+  border-radius: 5px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.63);
 }
 
-.project__card:hover img {
-  opacity: 0;
-}
-
-.project--showcaseBtn {
+.project__card--showcase {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  align-items: start;
+  justify-content: left;
   width: 100%;
 }
 
-.project--showcaseBtn > a {
+.project__card--showcase > a {
   cursor: pointer;
   text-decoration: none;
   transition: transform 0.5s 0.3s;
-}
-
-.project__card:hover .project--showcaseBtn a:nth-child(2) {
-  transform: translateX(-140px) scale(1.1) !important;
 }
 
 .project__card .project__card--description {
@@ -82,33 +76,52 @@
   font-family: var(--font-primary);
 }
 
-.project__card:hover .project__card--description {
-  transform: translate(-2%, 40%);
-}
-
-.project__card .project--lang {
+.project__card .project__card--lang {
   position: absolute;
-  bottom: 20px;
-  right: 0;
-  width: 140px;
+  bottom: 15px;
+  right: 10px;
   font-size: 0.8rem;
   display: flex;
   justify-content: center;
   gap: 0.5rem;
-  flex-direction: column;
+  flex-direction: row;
   border-radius: 10px 0 0 10px;
   transform: translateX(100%);
   transition: transform 0.5s 0.3s;
   padding: 0.825rem;
 }
 
-.project__card:hover .project--lang {
+.project__card:hover .project__card--lang {
   transform: translateX(0);
 }
 
-.project--lang > span {
+.project__card--lang > span {
   font-family: var(--font-primary);
   font-weight: 500;
   word-break: break-word;
   line-height: 100%;
+}
+
+.project__card .project__card--icon {
+  font-size: 1.1rem;
+  transition: all 0.2s;
+}
+
+.project__card:hover .project__card--icon {
+  color: var(--color-primary);
+}
+
+.project__card .project__card--iconBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  border: 2px solid var(--color-background);
+  color: var(--color-background);
+}
+
+.project__card:hover .project__card--iconBtn {
+  border: 2px solid var(--color-primary);
 }
