@@ -12,7 +12,7 @@ Portfólio com trabalhos realizados na graduação de Sistemas para Internet da 
 - [React Icons](https://react-icons.github.io/react-icons)
 - [React Router Dom](https://v5.reactrouter.com/)
 - [Create React App](https://github.com/facebook/create-react-app)
-- [unDraw](https://undraw.co/)
+- [ManyPixels](https://www.manypixels.co/)
 
 ### Rodando localmente
 
