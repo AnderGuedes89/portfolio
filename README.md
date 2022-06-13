@@ -2,7 +2,7 @@
 
 ### Descrição
 
-Portfólio com trabalhos realizados na graduação de Sistemas para Internet na Fatec Araras e projetos pessoais para estudo.
+Portfólio com trabalhos realizados na graduação de Sistemas para Internet da Fatec Araras e projetos pessoais para estudo.
 
 ### Tecnologias
 
@@ -19,7 +19,7 @@ Portfólio com trabalhos realizados na graduação de Sistemas para Internet na 
 Clone o repositório
 
 ```bash
-git clone https://github.com/AnderGuedes89/portfolio.git
+git clone https://github.com/andersonguedesmg/portfolio.git
 ```
 
 Acesse a pasta do projeto no terminal
