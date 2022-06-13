@@ -12,7 +12,7 @@ export const projectsData = [
     projectDesc:
       'Widget para feedbacks, desenvolvido durante a NLW Return da Rocketseat',
     tags: ['React', 'TypeScript', 'Tailwind CSS', 'Node.js'],
-    code: 'https://github.com/AnderGuedes89/FeedGet',
+    code: 'https://github.com/andersonguedesmg/FeedGet',
     image: FeedGet,
   },
   {
@@ -20,7 +20,7 @@ export const projectsData = [
     projectName: 'T-Shirt Store',
     projectDesc: 'Sistema de carrinho de compras para uma loja de camisas',
     tags: ['React', 'Material UI', 'Redux', 'MongoDB'],
-    code: 'https://github.com/AnderGuedes89/t-shirt-store',
+    code: 'https://github.com/andersonguedesmg/t-shirt-store',
     image: TShirtStore,
   },
   {
@@ -29,7 +29,7 @@ export const projectsData = [
     projectDesc:
       'Clone da página inicial do site youtube.com com opção Dark Mode',
     tags: ['React', 'Material UI'],
-    code: 'https://github.com/AnderGuedes89/youtube-clone',
+    code: 'https://github.com/andersonguedesmg/youtube-clone',
     image: YouTube,
   },
   {
@@ -38,7 +38,7 @@ export const projectsData = [
     projectDesc:
       'Site Institucional de um restaurante fictício de alto padrão no formato One Page',
     tags: ['HTML', 'CSS', 'JavaScript', 'Bootstrap'],
-    code: 'https://github.com/AnderGuedes89/gusto-belissimo',
+    code: 'https://github.com/andersonguedesmg/gusto-belissimo',
     image: GustoBelissimo,
   },
   {
@@ -47,7 +47,7 @@ export const projectsData = [
     projectDesc:
       'Sistema de estoque para a Paróquia Santa Teresinha de Araras/SP',
     tags: ['PHP', 'Laravel', 'Bootstrap'],
-    code: 'https://github.com/AnderGuedes89/myStock',
+    code: 'https://github.com/andersonguedesmg/myStock',
     image: MyStock,
   },
   {
@@ -56,7 +56,7 @@ export const projectsData = [
     projectDesc:
       'One Page de uma hambúrgueria para divulgar sua marca e seus produtos.',
     tags: ['HTML', 'CSS', 'Bootstrap'],
-    code: 'https://github.com/AnderGuedes89/buffalo-burger',
+    code: 'https://github.com/andersonguedesmg/buffalo-burger',
     image: BuffaloBurger,
   },
 ];
