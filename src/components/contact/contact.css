@@ -1,0 +1,149 @@
+.contact {
+  min-height: 100vh;
+  position: relative;
+  background-color: var(--color-background);
+}
+
+.contact__body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 8rem;
+  height: fit-content;
+}
+
+.contact__description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex: 0.5;
+  width: 100%;
+  height: fit-content;
+}
+
+.contact__description > h2 {
+  margin-bottom: 40px;
+  font-size: 3.5rem;
+  color: var(--color-primary);
+  font-family: var(--font-primary);
+}
+
+.contact__description > p {
+  font-size: 1.25rem;
+  color: var(--color-text-secondary);
+  font-family: var(--font-primary);
+}
+
+.contact__socialmedia {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1.5rem;
+  margin-top: 4rem;
+}
+
+.contact__socialmedia--icon {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 21px;
+  background-color: var(--color-primary);
+  color: var(--color-background);
+  transition: 250ms ease-in-out;
+}
+
+.contact__socialmedia--icon:hover {
+  transform: scale(1.1);
+}
+
+.contact__image {
+  margin-top: 40px;
+  pointer-events: none;
+}
+
+.contact__image > img {
+  width: 380px;
+  flex: 0.5;
+}
+
+@media (min-width: 992px) and (max-width: 1380px) {
+  .contact__description > h2 {
+    font-size: 3.3rem;
+    margin-bottom: 30px;
+  }
+
+  .contact__description > p {
+    font-size: 1.15rem;
+  }
+
+  .contact__image > img {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .contact__body {
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .contact__description {
+    flex: 0.6;
+    box-sizing: border-box;
+    padding: 20px;
+  }
+
+  .contact__description > h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+
+  .contact__description > p {
+    font-size: 1.1rem;
+  }
+
+  .contact__image > img {
+    width: 250px;
+    flex: 0.4;
+  }
+
+  .contact__socialmedia {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .contact__description > h2 {
+    align-self: center;
+  }
+
+  .contact__socialmedia {
+    width: 100%;
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .contact__description > h2 {
+    font-size: 2.5rem;
+  }
+
+  .contact__description > p {
+    font-size: 0.95rem;
+  }
+
+  .contact__image > img {
+    width: 200px;
+  }
+}
