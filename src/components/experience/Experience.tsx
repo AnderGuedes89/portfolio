@@ -1,7 +1,7 @@
 import React from 'react';
 import './experience.css';
 import ExperienceCard from './ExperienceCard';
-import Programming from '../../assets/images/programming.png';
+import FocusedWorking from '../../assets/images/focused_working.png';
 import { experienceData } from '../../data/experienceData';
 
 function Experience() {
@@ -10,7 +10,7 @@ function Experience() {
       <div className="experience">
         <div className="experience__body">
           <div className="experience__image">
-            <img src={Programming} alt="" />
+            <img src={FocusedWorking} alt="" />
           </div>
           <div className="experience__description">
             <h1>Experiências</h1>

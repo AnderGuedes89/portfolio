@@ -1,7 +1,7 @@
 import React from 'react';
 import './education.css';
 import EducationCard from './EducationCard';
-import Programming from '../../assets/images/programming.png';
+import School from '../../assets/images/school.png';
 import { educationData } from '../../data/educationData';
 
 function Education() {
@@ -23,7 +23,7 @@ function Education() {
             ))}
           </div>
           <div className="education__image">
-            <img src={Programming} alt="" />
+            <img src={School} alt="" />
           </div>
         </div>
       </div>
