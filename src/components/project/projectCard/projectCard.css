@@ -48,7 +48,7 @@
 
 .project__card--showcase {
   display: flex;
-  align-items: start;
+  align-items: flex-start;
   justify-content: left;
   width: 100%;
 }
