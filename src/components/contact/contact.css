@@ -31,7 +31,7 @@
 }
 
 .contact__description > p {
-  font-size: 1.25rem;
+  font-size: 1rem;
   color: var(--color-text-secondary);
   font-family: var(--font-primary);
 }

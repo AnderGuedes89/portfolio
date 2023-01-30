@@ -4,10 +4,20 @@ import GustoBelissimo from '../assets/images/cards/gusto-belissimo.png';
 import MyStock from '../assets/images/cards/myStock.png';
 import TShirtStore from '../assets/images/cards/t-shirt-store.png';
 import YouTube from '../assets/images/cards/youtube-clone.png';
+import UPAHelper from '../assets/images/cards/upa-helper.png';
 
 export const projectsData = [
   {
     id: 1,
+    projectName: 'UPA Helper',
+    projectDesc:
+      'Plataforma de gestão em saúde com foco em pequenos hospitais com pronto atendimento',
+    tags: ['Angular', 'TypeScript'],
+    code: 'https://github.com/andersonguedesmg/upa-helper-GUI',
+    image: UPAHelper,
+  },
+  {
+    id: 2,
     projectName: 'FeedGet',
     projectDesc:
       'Widget para feedbacks, desenvolvido durante a NLW Return da Rocketseat',
@@ -16,7 +26,7 @@ export const projectsData = [
     image: FeedGet,
   },
   {
-    id: 2,
+    id: 3,
     projectName: 'T-Shirt Store',
     projectDesc: 'Sistema de carrinho de compras para uma loja de camisas',
     tags: ['React', 'Material UI', 'Redux', 'MongoDB'],
@@ -24,7 +34,7 @@ export const projectsData = [
     image: TShirtStore,
   },
   {
-    id: 3,
+    id: 4,
     projectName: 'YouTube - Clone',
     projectDesc:
       'Clone da página inicial do site youtube.com com opção Dark Mode',
@@ -33,7 +43,7 @@ export const projectsData = [
     image: YouTube,
   },
   {
-    id: 4,
+    id: 5,
     projectName: 'Gusto Belissimo',
     projectDesc:
       'Site Institucional de um restaurante fictício de alto padrão no formato One Page',
@@ -42,7 +52,7 @@ export const projectsData = [
     image: GustoBelissimo,
   },
   {
-    id: 5,
+    id: 6,
     projectName: 'myStock',
     projectDesc:
       'Sistema de estoque para a Paróquia Santa Teresinha de Araras/SP',
@@ -51,7 +61,7 @@ export const projectsData = [
     image: MyStock,
   },
   {
-    id: 6,
+    id: 7,
     projectName: 'Buffalo Burger',
     projectDesc:
       'One Page de uma hambúrgueria para divulgar sua marca e seus produtos.',
