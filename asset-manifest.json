@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.f1ddeb17.css",
-    "main.js": "/portfolio/static/js/main.f248aa58.js",
+    "main.js": "/portfolio/static/js/main.2e7dd270.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/youtube-clone.png": "/portfolio/static/media/youtube-clone.796634f789ff3f330c24.png",
     "static/media/t-shirt-store.png": "/portfolio/static/media/t-shirt-store.062122f8d61d8e7c0309.png",
     "static/media/gusto-belissimo.png": "/portfolio/static/media/gusto-belissimo.d900febf7d16991a0cd6.png",
     "static/media/buffalo-burger.png": "/portfolio/static/media/buffalo-burger.04f1401279491f01e718.png",
     "static/media/upa-helper.png": "/portfolio/static/media/upa-helper.8de1a2819a74773f07f9.png",
+    "static/media/customer-ngrx.png": "/portfolio/static/media/customer-ngrx.fb3ed3aa327e9b25881e.png",
     "static/media/myStock.png": "/portfolio/static/media/myStock.8615b04fce028b0aa6d3.png",
     "static/media/sending_emails.png": "/portfolio/static/media/sending_emails.3e2fbdbd55605feb646b.png",
     "static/media/focused_working.png": "/portfolio/static/media/focused_working.83bdc04c9ef7601f0aa8.png",
@@ -26,11 +27,11 @@
     "static/media/html.svg": "/portfolio/static/media/html.6a342d61e4fe710cf3e5c05b65b0ac87.svg",
     "static/media/angular.svg": "/portfolio/static/media/angular.d4cb4fa5908f614ceb0969ed92e02f9c.svg",
     "main.f1ddeb17.css.map": "/portfolio/static/css/main.f1ddeb17.css.map",
-    "main.f248aa58.js.map": "/portfolio/static/js/main.f248aa58.js.map",
+    "main.2e7dd270.js.map": "/portfolio/static/js/main.2e7dd270.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f1ddeb17.css",
-    "static/js/main.f248aa58.js"
+    "static/js/main.2e7dd270.js"
   ]
 }
