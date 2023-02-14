@@ -5,6 +5,7 @@ import MyStock from '../assets/images/cards/myStock.png';
 import TShirtStore from '../assets/images/cards/t-shirt-store.png';
 import YouTube from '../assets/images/cards/youtube-clone.png';
 import UPAHelper from '../assets/images/cards/upa-helper.png';
+import CustomerNgRx from '../assets/images/cards/customer-ngrx.png';
 
 export const projectsData = [
   {
@@ -18,6 +19,15 @@ export const projectsData = [
   },
   {
     id: 2,
+    projectName: 'Customer-NgRx',
+    projectDesc:
+      'Sistema simples para realizar o CRUD de cliente utilizando NgRx',
+    tags: ['Angular', 'NgRx', 'TypeScript'],
+    code: 'https://github.com/andersonguedesmg/Customer-NgRx',
+    image: CustomerNgRx,
+  },
+  {
+    id: 3,
     projectName: 'FeedGet',
     projectDesc:
       'Widget para feedbacks, desenvolvido durante a NLW Return da Rocketseat',
@@ -26,7 +36,7 @@ export const projectsData = [
     image: FeedGet,
   },
   {
-    id: 3,
+    id: 4,
     projectName: 'T-Shirt Store',
     projectDesc: 'Sistema de carrinho de compras para uma loja de camisas',
     tags: ['React', 'Material UI', 'Redux', 'MongoDB'],
@@ -34,7 +44,7 @@ export const projectsData = [
     image: TShirtStore,
   },
   {
-    id: 4,
+    id: 5,
     projectName: 'YouTube - Clone',
     projectDesc:
       'Clone da página inicial do site youtube.com com opção Dark Mode',
@@ -43,7 +53,7 @@ export const projectsData = [
     image: YouTube,
   },
   {
-    id: 5,
+    id: 6,
     projectName: 'Gusto Belissimo',
     projectDesc:
       'Site Institucional de um restaurante fictício de alto padrão no formato One Page',
@@ -52,7 +62,7 @@ export const projectsData = [
     image: GustoBelissimo,
   },
   {
-    id: 6,
+    id: 7,
     projectName: 'myStock',
     projectDesc:
       'Sistema de estoque para a Paróquia Santa Teresinha de Araras/SP',
@@ -61,7 +71,7 @@ export const projectsData = [
     image: MyStock,
   },
   {
-    id: 7,
+    id: 8,
     projectName: 'Buffalo Burger',
     projectDesc:
       'One Page de uma hambúrgueria para divulgar sua marca e seus produtos.',
