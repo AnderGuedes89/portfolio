@@ -4,8 +4,8 @@ export const headerData = {
   name: 'Anderson Guedes',
   title: 'Desenvolvedor Web',
   desciption:
-    'Sou Engenheiro de Software Front-End da cidade de Araras/SP, trabalhando em Home Office para uma empresa de Recife/PE.',
+    'Sou um Engenheiro de Software Front-End com 4 anos de experiência, trabalhando com HTML, CSS, Javascript, TypeScript e Angular.',
   desciption2:
-    'Graduado na primeira turma do curso de Sistemas para Internet pela Fatec de Araras-SP e atualmente estou aperfeiçoando os conhecimentos em Angular e TypeScript, além de aprendendo React e NestJS.',
+    'Para me manter atualizado com as tendências do setor, tenho dedicado meu tempo a aprimorar minhas habilidades em Angular e TypeScript, bem como a aprender novas tecnologias, como React e NestJS.',
   image: UserProfile,
 };
