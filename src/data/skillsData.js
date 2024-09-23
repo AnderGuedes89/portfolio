@@ -10,7 +10,7 @@ import DotNet from '../assets/svg/dotnet.svg';
 import NestJS from '../assets/svg/nestjs.svg';
 import Bootstrap from '../assets/svg/bootstrap.svg';
 import Postgresql from '../assets/svg/postgresql.svg';
-import Mongodb from '../assets/svg/mongodb.svg';
+import Mongodb from '../assets/svg/mongoDB.svg';
 
 export const skillsData = [
   {
